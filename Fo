@@ -1,0 +1,4 @@
+import random
+four = [int(random.random()*10000) for i in range(10000)]
+
+print(max(four,default=0))
