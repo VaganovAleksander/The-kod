@@ -22,8 +22,24 @@ if n % 10 == 2:
 p = int(input(li))
 if p % 10 == 2:
     print(p)
-    
 
-
+y = input(out)
+lst = []
+for b in range(2,y+1):
+    for j in range(2, b):
+        if b % j == 0:
+            break
+    else:
+        lst.append(b)
+print(lst)
+c = input(out)
+dst = []
+for f in range(2,c+1):
+    for m in range(2, f):
+        if f % m == 0:
+            break
+    else:
+        lst.append(b)
+print(dst)
 
 
