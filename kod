@@ -1,0 +1,4 @@
+
+func = lambda x,y: pow(x, (1/y))
+print(func(4,2))
+    
