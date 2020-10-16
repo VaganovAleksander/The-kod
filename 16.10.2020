@@ -15,6 +15,15 @@ for num in four:
 def gg(out):
     return out[0]
 print(gg(out))
+n = int(input(out))
+if n % 10 == 2:
+    print(n)
+    
+p = int(input(li))
+if p % 10 == 2:
+    print(p)
+    
+
 
 
 
