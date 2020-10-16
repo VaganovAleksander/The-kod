@@ -1,0 +1,20 @@
+import random
+four = [int(random.random()*10000) for i in range(10000)]
+li = []
+count = 0
+for i in four:
+    if count % 2 == 1:
+        li.append(i)
+    count += 1
+len_first = len(li)
+print(len_first)
+out = []
+for num in four: 
+    if num % 2 == 0: 
+        out.append(num)
+def gg(out):
+    return out[0]
+print(gg(out))
+
+
+
