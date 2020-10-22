@@ -1,0 +1,3 @@
+stroca = "lublupython"
+slovar = {i: stroca.count(i) for i in stroca}
+print(slovar)
