@@ -1,0 +1,18 @@
+import random
+
+ff -[int(random.random()*10000) for i in range(10000)]
+
+print(ff)
+
+max = ff[0]
+
+Max_count=ff.count(max)
+
+for g in ff:
+
+if ff.count(gg) >max_count:
+
+max_count = ff.count(gg)
+
+print(max)
+
