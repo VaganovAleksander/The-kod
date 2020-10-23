@@ -1,0 +1,30 @@
+
+
+Lupa- open(r"E:test text. txt")
+ print(lupa.read())
+
+import random
+
+four - [int(random.random()*10000) for { in range(10000)] with open(rE:random_text.txt", 'W') as pupa:
+
+for itea in four:
+ pupa. write("{}\n".format(item))
+ pupa.close()
+
+Lupo- open(r*E:random_text.txt") print(Lupa.read())
+
+Word- "58"
+
+outfile - open(r"E:test text.txt", '') with open(rPE: randon_text.txt", 'r') as search:
+ for Line in search:
+
+Line - Line.rstrip()
+ If word - Line:
+
+print(Line)
+
+outfile.write(line)
+
+search.close() 
+outfile.close()
+
