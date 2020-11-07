@@ -1,0 +1,11 @@
+m,k = map(int,input().split())
+lupa = 0
+pupa = 0
+for i in range(m,k+1):
+
+    if i % 3 == 0:
+
+        lupa += i
+
+        pupa += 1
+print(lupa/pupa)
