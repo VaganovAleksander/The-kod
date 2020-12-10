@@ -29,9 +29,9 @@ for row in data:
     emojixpress_sr += row[1]
     instagram_sr += row[2]
     twitter_sr += row[3]
-emojixpress_sr1 = emojixpress_sr / len(data[1])
-instagram_sr1 = instagram_sr / len(data[2])
-twitter_sr1 = twitter_sr / len(data[3])
+emojixpress_sr = emojixpress_sr / len(data[1])
+instagram_sr = instagram_sr / len(data[2])
+twitter_srr = twitter_sr / len(data[3])
 print('Emojixpress      | Instagram      |     Twitter')
 print('{: ^16.0f} | {: ^14.0f} | {: ^12.0f}'.format(
     emojixpress_sr1, instagram_sr1, twitter_sr1))
