@@ -1,0 +1,17 @@
+import pandas as pd
+
+df = pd.read_csv ('cholera.csv')
+print (df)
+print('---------------------------------------')
+print(df.tail(10))
+print('---------------------------------------')
+print(df.head(5))
+print('---------------------------------------')
+stolbci = df.loc[:,['region','country','total_cases']]  
+print(stolbci)
+print('---------------------------------------')
+print(df.loc[3:12])
+print('---------------------------------------')
+deadinside = df.loc[df.loc[:,'deaths'] > 50]['deaths'].count()
+print(deadinside)
+print('---------------------------------------')
