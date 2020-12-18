@@ -20,10 +20,7 @@ Darksouls= df.loc[df.loc[:,'region']!= 'Азия']['region'].count()
 if (Anime==Darksouls):
     print('Такие страны есть')
     print('Соотношение Азии на общее количество стран', Anime ,":", Darksouls)
+    print(df.loc[df.loc[:,'region']!= 'Азия'])
 else:
     print('Таких стран нет')
     print('Соотношение Азии на общее количество стран', Anime ,":", Darksouls)
-print('Все страны')
-print(df.loc[df.loc[:,'region']!= 'Азия'])
-print('Азия')
-print(df.loc[df.loc[:,'region']== 'Азия'])
